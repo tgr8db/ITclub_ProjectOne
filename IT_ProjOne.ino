@@ -4,8 +4,9 @@
 #include <ESP8266WebServer.h>
 
 /* This character has been edited from "const char*" to "const char"*/
+// It didn't improve the speed, so I'm reverting it back.
 
-const char ssid = "cslab_roomx";
+const char* ssid = "cslab_roomx";
 const char* password = "projectone";
 
 unsigned long prevScroll = 0;
