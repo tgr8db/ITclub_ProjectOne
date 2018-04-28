@@ -3,7 +3,9 @@
 #include <WiFiClient.h>
 #include <ESP8266WebServer.h>
 
-const char* ssid = "cslab_roomx";
+/* This character has been edited from "const char*" to "const char"*/
+
+const char ssid = "cslab_roomx";
 const char* password = "projectone";
 
 unsigned long prevScroll = 0;
